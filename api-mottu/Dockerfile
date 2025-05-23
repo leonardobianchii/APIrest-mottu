@@ -26,7 +26,7 @@ COPY --from=build ${DEPENDENCY}/META-INF /app/META-INF
 COPY --from=build ${DEPENDENCY}/BOOT-INF/classes /app
 
 # Entrada da aplicação
-ENTRYPOINT ["java","-cp","app:app/lib/*","br.monitoramento.mottu.ApiMottuApplication"]
+ENTRYPOINT ["java","-cp","app:app/lib/*","br.monitoramento.motu.ApiMottuApplication"]
 
 # Usuário não-root para segurança
 RUN addgroup -S spring && adduser -S spring -G spring
