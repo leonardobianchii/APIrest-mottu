@@ -6,6 +6,7 @@ WORKDIR /workspace/app
 RUN apk add --no-cache maven
 
 # build
+COPY pom.xml .
 COPY src src
 
 # Compila o projeto
