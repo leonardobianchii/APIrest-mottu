@@ -12,7 +12,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>br.monitoramento.motu.api_mottu</groupId>
+    <groupId>br.monitoramento.motu</groupId>
     <artifactId>api-mottu</artifactId>
     <version>1.0</version>
     <name>api-mottu</name>
