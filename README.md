@@ -106,12 +106,12 @@ O projeto segue arquitetura em camadas, organizada em:
 
 ### Passos
 
-1. Clone o repositório:
+### 1. Clone o repositório:
 
 git clone https://github.com/leonardobianchii/APIrest-mottu.git
 cd APIrest-mottu
 
-2. Configure o banco Oracle em src/main/resources/application.properties com suas credenciais.
+### 2. Configure o banco Oracle em src/main/resources/application.properties com suas credenciais.
 
 Rode o projeto:
 
@@ -123,11 +123,11 @@ Rode o projeto:
 
 mvn spring-boot:run
 
-3. A API estará rodando em:
+### 3. A API estará rodando em:
 
 http://localhost:8080
 
-4. Testando a API
+### 4. Testando a API
 
 Use o Postman ou Insomnia para fazer requisições REST.
 Exemplo para criar uma moto:
@@ -144,5 +144,12 @@ Exemplo para criar uma moto:
   "placa": "ABC-1234",
   "statusMoto": "Disponível",
   "kmRodado": 15000
+}
+
+### Encerramento
+
+Obrigado por acessar o repositório do projeto Mottu!
+Esperamos que esta API facilite o rastreamento e gerenciamento das motos com tecnologia RFID de forma prática e eficiente.
+Contribuições, dúvidas e sugestões são sempre bem-vindas!
 }
 
